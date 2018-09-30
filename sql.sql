@@ -37,7 +37,7 @@ CREATE TABLE `user_admin_notes` (
 
 CREATE TABLE `admins` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` int(11) NULL,
+  `username` varchar(15) NULL,
   `password` varchar(255) NULL,
   `role` varchar(255) NULL,
   PRIMARY KEY (`id`)
